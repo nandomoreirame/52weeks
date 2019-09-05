@@ -12,6 +12,6 @@ export default [
   {
     path: '*',
     name: 'error404',
-    component: () => import(/* webpackChunkName: "about" */ '@/views/404.vue')
+    component: () => import(/* webpackChunkName: "error404" */ '@/views/404.vue')
   }
 ]

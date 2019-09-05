@@ -7,7 +7,6 @@
 
 <script>
 export default {
-  name: 'app',
   components: {
     cNav: () => import('@/components/nav')
   }

@@ -2,6 +2,6 @@ import WebFont from 'webfontloader'
 
 WebFont.load({
   google: {
-    families: ['Avenir:400,400i,600,600i,800,800i']
+    families: ['Open+Sans:300,500,600,700,800']
   }
 })
