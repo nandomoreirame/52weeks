@@ -1,0 +1,13 @@
+{
+  "name": "52weeks",
+  "short_name": "52weeks",
+  "description": "52weeks",
+  "dir": "auto",
+  "lang": "pt-BR",
+  "display": "standalone",
+  "orientation": "portrait",
+  "start_url": "/?homescreen=1",
+  "background_color": "#ffffff",
+  "theme_color": "#fff",
+  "icons": []
+}
