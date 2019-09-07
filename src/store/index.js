@@ -5,7 +5,7 @@ Vue.use(Vuex)
 
 const state = {
   showTable: true,
-  deposit: '1',
+  deposit: '',
   bank: [],
   total: 0
 }
