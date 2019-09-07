@@ -20,9 +20,9 @@ export default {
   },
   computed: {
     ...mapState({
-      show: state => (state.showTable && state.total > 0),
-      bank: state => state.bank,
-      total: state => state.total
+      show: ({ showTable, total }) => (showTable && total > 0),
+      bank: ({ bank }) => bank,
+      total: ({ total }) => total
     })
   }
 }
